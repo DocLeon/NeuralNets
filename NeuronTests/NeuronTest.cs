@@ -16,7 +16,7 @@ namespace NeuronTests
         public void single_input_neuron(bool input, int weight, int threshold, bool expectedOutput)
         {
             var simpleNeuron = new Neuron.Neuron(threshold);
-            var output = simpleNeuron.Input(new Input(input, weight));
+            var output = simpleNeuron.Process(new Input(input, weight));
             Assert.That(output, Is.EqualTo(expectedOutput));
         }
 
@@ -30,7 +30,7 @@ namespace NeuronTests
         {
             var simpleNeuron = new Neuron.Neuron(threshold);
             var inputs = new[] {new Input(input1, weight1), new Input(input2, weight2)};
-            var output = simpleNeuron.Input(inputs);
+            var output = simpleNeuron.Process(inputs);
             Assert.That(output, Is.EqualTo(expectedOutput));
         }
     }

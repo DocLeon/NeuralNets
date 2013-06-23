@@ -12,7 +12,7 @@ namespace Neuron
         }
 
 
-        public bool Input(params Input[] inputs)
+        public bool Process(params Input[] inputs)
         {
             return inputs.Sum(input => input.WeightedValue) > _threshold;
             return true; //input.WeightedValue > _threshold;
