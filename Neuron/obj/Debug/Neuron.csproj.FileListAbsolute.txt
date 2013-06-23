@@ -1,0 +1,6 @@
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\Neuron\bin\Debug\Neuron.exe.config
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\Neuron\bin\Debug\Neuron.exe
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\Neuron\bin\Debug\Neuron.pdb
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\Neuron\obj\Debug\Neuron.exe
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\Neuron\obj\Debug\Neuron.pdb
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\Neuron\obj\Debug\Neuron.csprojResolveAssemblyReference.cache

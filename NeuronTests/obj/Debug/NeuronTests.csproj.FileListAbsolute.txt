@@ -1,0 +1,9 @@
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\NeuronTests\obj\Debug\NeuronTests.csprojResolveAssemblyReference.cache
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\NeuronTests\bin\Debug\NeuronTests.dll
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\NeuronTests\bin\Debug\NeuronTests.pdb
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\NeuronTests\bin\Debug\nunit.framework.dll
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\NeuronTests\bin\Debug\nunit.framework.xml
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\NeuronTests\obj\Debug\NeuronTests.dll
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\NeuronTests\obj\Debug\NeuronTests.pdb
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\NeuronTests\bin\Debug\Neuron.exe
+C:\Users\Leon\Documents\Visual Studio 2012\Projects\Spa\Neuron\NeuronTests\bin\Debug\Neuron.pdb
