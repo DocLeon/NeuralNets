@@ -4,9 +4,9 @@ namespace Neuron
 {
     public class Neuron
     {
-        private readonly int _threshold;
+        private readonly double _threshold;
 
-        public Neuron(int threshold)
+        public Neuron(double threshold)
         {
             _threshold = threshold;
         }

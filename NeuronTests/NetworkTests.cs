@@ -63,18 +63,4 @@ namespace NeuronTests
             Assert.That(neuron.Process(new Input(a,-1),new Input(b,-1)), Is.EqualTo(output));
         }
     }
-
-    public class NANDGate
-    {
-        private Neuron.Neuron _neuron;
-
-        public NANDGate()
-        {
-            _neuron = new Neuron.Neuron(0);
-        }
-        public bool Input(bool a, bool b)
-        {
-            throw new NotImplementedException();
-        }
-    }
 }               

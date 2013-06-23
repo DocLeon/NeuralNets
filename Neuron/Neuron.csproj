@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DivisibilitySolver.cs" />
     <Compile Include="Input.cs" />
     <Compile Include="Neuron.cs" />
+    <Compile Include="NeuronParameters.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

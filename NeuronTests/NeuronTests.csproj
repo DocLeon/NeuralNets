@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FindDivisabilities.cs" />
     <Compile Include="NetworkTests.cs" />
     <Compile Include="NeuronTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
