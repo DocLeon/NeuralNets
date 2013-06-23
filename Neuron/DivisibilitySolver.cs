@@ -10,8 +10,8 @@ namespace Neuron
 
             var neuronOutput = GetNeuronOutput(neuronParameters, neuronValues, expectedResult);
             var iterator = 0;
-            int loopLimit = 10000;
-            while ((neuronOutput == expectedResult) && (iterator < loopLimit))
+            int loopLimit = 1000000000;
+            while ((neuronOutput != expectedResult) && (iterator < loopLimit))
             {
                 var direction = Convert.ToInt32(expectedResult) - Convert.ToInt32(neuronOutput);
                 neuronParameters = GetAdjustedWeights(neuronParameters,direction, neuronValues);
@@ -21,6 +21,7 @@ namespace Neuron
             }
             if (iterator == loopLimit)
                 throw new Exception("I dunno wot it is.");
+            neuronParameters.Attempts = iterator;
             return neuronParameters;
         }
 
